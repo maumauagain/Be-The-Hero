@@ -7,6 +7,7 @@ import logoImg from '../../assets/logo.png';
 
 import styles from './styles';
 import api from '../../services/api';
+//import axios from 'axios';
 
 export default function Incidents() {
     const navigation = useNavigation();
@@ -31,25 +32,15 @@ export default function Incidents() {
 
         setLoading(true);
 
-        xmlHttp.responseType = "json";
-        xmlHttp.open( "GET", `http://10.0.0.114:3333/incidents?page=${page}`, true ); // false for synchronous request
-        xmlHttp.send();
-        xmlHttp.onreadystatechange = processRequest;
-        
+        const response = await api.get('incidents', {
+            params: { page }
+        });
+
+        setIncidents([...incidents, ...response.data]);
+        setTotal(response.headers['x-total-count']);
         setPage(page + 1);
         setLoading(false);
-        // const response = await api.get('incidents');
-        // setIncidents(response.data);
-        
     }
-
-    function processRequest(e) {
-        if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-            setIncidents([...incidents, ...xmlHttp.response]);
-            setTotal(xmlHttp.getResponseHeader('x-total-count'));
-        }
-    }
-
     useEffect(() => {
         loadIncidents();
     }, []);
