@@ -12,7 +12,6 @@ import api from '../../services/api';
 export default function Incidents() {
     const navigation = useNavigation();
     const [incidents, setIncidents] = useState([]);
-    let xmlHttp = new XMLHttpRequest();
     const [total, setTotal] = useState(0);
     const [page, setPage] = useState(1);
     const [loading, setLoading] = useState(false);
