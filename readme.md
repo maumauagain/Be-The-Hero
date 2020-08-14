@@ -29,7 +29,7 @@ O projeto **Be The Hero** tem a ideia de que ONG's se cadastrem e criem seus cas
     $ git clone https://github.com/maumauagain/Be-The-Hero
 
     # Acessar o diretório contendo o projeto
-    $ cd ecoleta
+    $ cd Be-The-Hero
 
     # Instalar as dependências do projeto
     $ npm install
