@@ -6,10 +6,6 @@
     <img src="./media/homepageweb.JPG" alt="Homepage"/>
 </h1>
 
-<h1>
-    <img src="./media/listpagemobile.JPG" height="600" alt="ListPage"/>
-</h1>
-
 ## 📝 Sobre
 
 O projeto **Be The Hero** tem a ideia de que ONG's se cadastrem e criem seus casos (pela plataforma WEB) para que as pessoas consigam ajudar (pelo aplicativo)!
