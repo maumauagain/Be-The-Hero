@@ -62,7 +62,6 @@ O projeto **Be The Hero** tem a ideia de que ONG's se cadastrem e criem seus cas
 
 ---
 
-<h4 align="center"> Desenvolvido por [Amauri Martins](https://www.linkedin.com/in/amauri-martins-júnior-73090a169/) ⚓ </h4>
-
-
-
+<h4 align="center">
+    Desenvolvido por <a href="https://www.linkedin.com/in/amauri-martins-júnior-73090a169" target="_blank">Amauri Martins </a> ⚓
+</h4>
