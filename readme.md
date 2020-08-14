@@ -31,17 +31,38 @@ O projeto **Be The Hero** tem a ideia de que ONG's se cadastrem e criem seus cas
     # Acessar o diretório contendo o projeto
     $ cd Be-The-Hero
 
-    # Instalar as dependências do projeto
+    # Acessar o diretório contendo o backend do projeto
+    $ cd backend 
+
+    # Instalar as dependências do backend do projeto
     $ npm install
 
-    # Iniciar o projeto
+    # Iniciar o projeto backend
+    $ npm start
+
+    # Acessar o diretório contendo o frontend do projeto
+    $ cd frontend 
+
+    # Instalar as dependências do frontend do projeto
+    $ npm install
+
+    # Iniciar o projeto frontend
+    $ npm start
+
+    # Acessar o diretório contendo o mobile do projeto
+    $ cd mobile 
+
+    # Instalar as dependências do mobile do projeto
+    $ npm install
+
+    # Iniciar o projeto mobile
     $ npm start
 
 ```
 
 ---
 
-Desenvolvido por Amauri Martins ⚓
+<h4 align="center"> Desenvolvido por [Amauri Martins](https://www.linkedin.com/in/amauri-martins-júnior-73090a169/) ⚓ </h4>
 
 
 
