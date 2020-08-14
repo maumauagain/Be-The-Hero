@@ -5,8 +5,9 @@
 <h1 align="center">
     <img src="./media/homepageweb.JPG" alt="Homepage"/>
 </h1>
-<h1 align="center">
-    <img src="./media/listpagemobile.JPG" alt="ListPage"/>
+
+<h1>
+    <img src="./media/listpagemobile.JPG" height="600" alt="ListPage"/>
 </h1>
 
 ## 📝 Sobre
